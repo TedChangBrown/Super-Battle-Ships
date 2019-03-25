@@ -1,2 +1,2 @@
-# Super-Battle_Ships
+# Super-Battle-Ships
 A 3D Command Line BattleShip
