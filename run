@@ -34,7 +34,6 @@ CP=$(cat .mvn-classpath)
 MAIN=$(ls src/main/java/sbs/Main.java)
 [ -z "$MAIN" ] && echo "You need a Main.java" && exit 1
 [ ! -e "$MAIN" ] && echo "You can only have one Main.java" && exit 1
-STUDENT=$(basename $(dirname $(dirname $MAIN)))
 MAINPKG=$(basename $(dirname $MAIN))
 
 # No guarantees yet, but we're trying to support Windows, which uses a

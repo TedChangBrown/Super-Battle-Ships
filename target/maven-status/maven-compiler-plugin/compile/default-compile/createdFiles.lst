@@ -1,1 +1,10 @@
+kdtree\KDTree.class
 sbs\Main.class
+commandhandling\CommandController.class
+commandhandling\CommandParser.class
+geometry\Coordinate.class
+geometry\DistanceComparator.class
+kdtree\KDNode.class
+sbs\SetupController.class
+geometry\CoordinateComparator.class
+commandhandling\REPL.class
